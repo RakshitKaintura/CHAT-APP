@@ -20,6 +20,3 @@ if(process.env.NODE_ENV==="production"){
     })
 }
 app.listen(PORT,()=>console.log("Server running on port : "+PORT));
-
-// At the end of your server.js file
-module.exports = app; // or export default app;
